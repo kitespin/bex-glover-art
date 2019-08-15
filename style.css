@@ -5,3 +5,6 @@
  Template:     blask
 */
 
+.main-navigation .current-menu-item a {
+	color:red;
+};

@@ -22,9 +22,11 @@
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'blask' ); ?></a>
 
-
 		<header id="masthead" class="site-header" role="banner">
-			<img src="wp-content/uploads/2019/08/bexgloverart_logo.jpg" alt="bex glover logo">
+
+			<img src="<?php echo get_site_url()?>/wp-content/uploads/2019/08/bexgloverart_logo.jpg" alt="bex glover logo">
+
+
 			<!-- .site-branding -->
 			<p class="site-description"><?php bloginfo( 'description' ); ?></p>
 
