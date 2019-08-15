@@ -12,13 +12,7 @@
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
 
-	<?php
-		//var dump to get the array of image sizes
-		//var_dump(get_field ('home-main-logo'));;
-		//custom field entry for logo
-		if ( get_field( 'home-main-logo' ) ){  ?>
-			<img src=" <?php echo get_field( 'home-main-logo' )["sizes"]["medium"]?>" > </img>
-		<?php } ?>
+	
 
 	<div class="page-content">
 		<?php the_content(); ?>
