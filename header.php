@@ -24,7 +24,7 @@
 
 		<header id="masthead" class="site-header" role="banner">
 
-			<img src="<?php echo get_site_url()?>/wp-content/uploads/2019/08/bexgloverart_logo.jpg" alt="bex glover logo">
+			<img src="<?php echo get_site_url()?>/wp-content/uploads/2019/08/bexgloverart_logo_space_bottom.jpg" alt="bex glover logo">
 
 
 			<!-- .site-branding -->
