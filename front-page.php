@@ -45,7 +45,7 @@ get_header(); ?>
 	if ( $result->have_posts() ){
 	$result->the_post();  
 		?>
-		<a href="http://192.168.33.11/news/" ><h5 style="color:orange;"><?php the_title(); ?></h5></a>
+		<a href="<?php echo get_site_url()?>/news/" ><h5 style="color:orange;"><?php the_title(); ?></h5></a>
 		<?php
 	}else{
 		echo "No posts";
